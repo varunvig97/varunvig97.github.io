@@ -1,0 +1,17 @@
+body {
+  background-color:black;
+  margin:0;
+}
+.element {
+ 
+  width:3px;
+  height:1200px;
+  background-color:skyblue;
+  margin:10px;
+  position:absolute;
+  transform-origin: 50% 50%;
+}
+.random {
+  width:5px;
+  background-color:#000;
+}
