@@ -1,0 +1,156 @@
+.schoolframe {
+        font-size: 60px;
+        font-family: 'Luckiest Guy', cursive;
+        position: absolute;
+        color: black;
+    top: 35%;
+    left: 35%;
+}
+
+.homeframe {
+        font-size: 60px;
+        font-family: 'Luckiest Guy', cursive;
+        position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+
+
+.homebody {
+    background-image: url("tappinghands.gif");
+    background-size: cover;
+
+	}
+
+.home {
+	position: absolute;
+    top: 50%;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 300px;
+    color: #ffd014;
+    
+}
+
+
+
+#homelink {
+	text-decoration: none;
+
+
+}
+
+
+}
+
+#aboutlink {
+	position: absolute;
+    top: 3%;
+    right: 1%;
+    text-decoration: none;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 20px;
+    color: white;
+    
+    width: 70px;
+    height: 40px;
+    
+
+}
+
+.inst {
+	position: absolute;
+    top: 8%;
+    width: 30px;
+    height: 30px;
+    right:3%;
+}
+
+.face {
+	position: absolute;
+    top: 14%;
+    width: 30px;
+    height: 30px;
+    right:3%;
+}
+â€‹li {
+    float: left;
+    display: inline-block;
+    
+}
+
+.par {
+    z-index: 1;
+    font-family: 'Luckiest Guy', cursive;
+    color: white;
+    width: 1vw;
+   margin: 5%;
+}
+
+#homelink {
+	font-family: 'Luckiest Guy', cursive;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+
+
+
+.din {
+   
+}
+
+.din:hover {
+    color: white;
+    
+    transition: 1s;
+}
+
+.sub:hover {
+    color: black;
+    font-size: 10px;
+    transition: 1s;
+
+}
+
+.break {
+    
+}
+
+.break:hover {
+    color: white;
+    transition: 1s;
+}
+
+.homehov:hover {
+    font-size: 100px;
+    transition: 2s;
+}
+
+.schoolhov:hover {
+    font-size: 100px;
+    transition: 2s;
+}
+
+.awakeagain:hover {
+    font-size: 100px; 
+    transition: 2s;
+
+}
+
+.element {
+  width:15px;
+  height:7px;
+  
+  margin:10px;
+  padding: 10px;
+  position: absolute;
+
+}
+
+
+    

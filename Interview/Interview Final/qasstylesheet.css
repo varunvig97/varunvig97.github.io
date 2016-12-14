@@ -1,0 +1,70 @@
+p:nth-child(3) {
+	font-family: Avenir Next, Helvetica;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 50px;
+}
+
+li {
+	list-style-type: none;
+}
+
+body {background-color: #ffcc00;}
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 10px;
+}
+a {
+	text-decoration: none;
+	color: black;
+	
+}
+a:hover {
+	font-size: 1em;
+	color: white;
+}
+x {
+	padding-right:100px;
+}
+
+.headers {
+	margin:15%;
+	text-align: center;
+	top: 20px;
+	font-family: Avenir Next;
+	font-size: 50px;
+	color: white;
+}
+
+.description {
+	font-family: Avenir Next;
+	margin-left: 0%;
+	margin-top: 1%;
+	color: white;
+	text-align: center;
+}
+
+.menu {
+	position: fixed;
+	top: 0px;
+	font-family: Avenir Next;
+	left:20%;
+	font-size: 3em
+	
+}
+
+.logo {
+	position: fixed;
+	margin: 1%;
+	top: 0px;
+	left:0px;
+	align-content: left;
+}
+
+
+
+
+  

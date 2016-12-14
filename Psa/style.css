@@ -1,0 +1,43 @@
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #000000
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 0%
+    color:blue;
+   
+}
+
+h2 {
+    font-size: 200px;
+}
+
+body {
+    padding-top:300px;
+    padding-bottom:50px;
+    font-size: 48px;
+    outline: none;
+    color: #9b0f1b;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    line-height: 90%
+    background-color: #000000
+}
+
+.test:hover span {
+    content: 'A STARVING CHILD CANNOT EAT YOUR SYMPATHY';
+    display: none;
+    font-size: 100px;
+}
+
+.test:hover:after {
+    content: 'STOP WORLD HUNGER';
+    color:#9b0f1b;
+    font-size: 160px;
+}
