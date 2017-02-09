@@ -1,0 +1,12 @@
+.square {
+width: 0;
+height: 0;
+border: 20px solid pink;
+}
+
+.squareone {
+width: 20;
+height: 10;
+border: 50px solid red;
+padding: 40px 
+}
