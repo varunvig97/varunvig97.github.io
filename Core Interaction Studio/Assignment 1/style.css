@@ -8,6 +8,7 @@ body {
 }
 p { color: #ffffff;  }
 
+
 /*-=-=-=-=-=-=-=-=-=-*/
  Column Grids 
 /*-=-=-=-=-=-=-=-=-= */
@@ -44,12 +45,13 @@ p { color: #ffffff;  }
 	margin: 70 auto; /*This is to seperate the pannels from each other. Adjust margins */
 	height: 130px;  
 	position: relative;
-	-webkit-perspective: 600px;
-	-moz-perspective: 600px;
+	-webkit-perspective: 600px; /*Makes the pannels do a the really trippy flip*/
+	-moz-perspective: 600px;    /*Makes the pannels do a the really trippy flip*/
 }
 
 .panel .front,
 .panel .back {
+
 	text-align: center;
 }
 	
@@ -101,21 +103,42 @@ p { color: #ffffff;  }
 }
 .box1{
 	background-color: #14bcc8;
+	background-image: url("graffiti.jpg");
+	background-position: center;
 	width: 250px;
 	height: 150px;
+	line-height: 150px;
 	margin: 0 auto;
 	padding: 20px;
 	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+
+
+
+
 }
+
+
 .box2{
 	background-color: pink;
+	background-image: url("banksy.jpg");
+	background-position: center;
 	width: 250px;
 	height: 150px;
 	margin: 0 auto;
+	line-height: 150px;
 	padding: 20px;
 	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
 }
+
+
+
+p {
+margin:0;
+
+
+}
+

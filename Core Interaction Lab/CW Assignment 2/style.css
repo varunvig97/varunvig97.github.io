@@ -1,0 +1,66 @@
+.dot {
+width: 200px;
+height: 200px;
+border-radius: 50%;
+background-color: rgb(0, 200, 40);
+}
+
+.box {
+width: 400px;
+height: 400px;
+}
+
+.dot, .box {
+background-color: orange;
+}
+
+
+
+/*
+Pseudo Selector
+Pseudo Class
+always start with :
+*/
+
+
+/*
+.dot:hover {
+background-color: rgb(0, 100, 20);
+cursor: pointer;
+}
+*/
+
+/* 
+.dot:first-of-type {
+background-color: rgb(0, 180, 20);
+}
+*/
+
+
+.box1 {
+width: 200px;
+height: 200px;
+background-color: rgb(200, 20, 50);
+margin-bottom: 10px;
+}
+
+.special {
+/* position: fixed;
+top: 50px;
+left: 600px;
+}
+*/
+
+position: absolute;
+top: 200px;
+left: 500px;
+}
+
+.box2 {
+width: 200px;
+height: 200px;
+background-color: rgb(200, 20, 50);
+position: absolute;
+top: 7px;
+left: 300px;
+}

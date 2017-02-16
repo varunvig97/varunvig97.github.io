@@ -1,0 +1,23 @@
+.square {
+width: 100px;
+height: 100px;
+float: left;
+}
+
+
+.red {
+background-color: red;
+}
+
+
+.black {
+background-color: black;
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background-color: pink;
+	border-radius:50%;
+}
