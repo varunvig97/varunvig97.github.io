@@ -1,0 +1,118 @@
+body {
+  /*background-image: url("smoke.gif");*/
+    background-size: 50%;
+    background-color:black;
+  margin:0;
+  overflow: hidden;
+}
+.element {
+  width:1300px;
+  height:3px;
+  background-color:pink;
+  margin:10px;
+  float:right;
+   animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.element1 {
+	/*position: absolute;
+	top: 10px;*/
+  width:1300px;
+  height:3px;
+  background-color:blue;
+  margin:10px;
+  float:left;
+   animation-name: spin2;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+h2 {
+	position: absolute;
+	animation-name: scroll;
+    animation-duration: 50000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+h1 {
+	position: absolute;
+	animation-name: scroll2;
+    animation-duration: 25000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes spin { 
+        0% { 
+            background-color:pink; 
+        } 50% { 
+            background-color: purple;
+        }
+        100% { 
+            background-color:pink; 
+        }
+    }
+
+    @keyframes spin2 { 
+        0% { 
+            background-color:skyblue; 
+        } 50% { 
+            background-color: lime;
+        }
+        100% { 
+            background-color:skyblue; 
+        }
+    }
+
+@keyframes scroll { 
+        0% { 
+            top:0px;
+        } 50% { 
+            top:-10000px;
+        }
+        100% { 
+            top:0px;
+        }
+    }
+    @keyframes scroll2 { 
+        0% { 
+            top:0px;
+        } 50% { 
+            top:-10000px;
+        }
+        100% { 
+            top:0px;
+        }
+    }
+
+/** {
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #111;
+}
+*/
+/*body {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	overflow:hidden;
+}
+canvas {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 120%;
+	background: #000;
+	cursor: pointer;
+}*/
