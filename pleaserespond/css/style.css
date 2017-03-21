@@ -1,0 +1,52 @@
+
+
+img {
+	height: 24vw;
+	float: left;
+	margin: 1VW;
+}
+
+
+
+.box {
+	width: 95vw;
+	height: 17vw;
+	margin: 10VW;
+	background-color: black;
+	color: white;
+	font-family: helvetica, sans-serif;
+	font-size: 13vw;
+	text-align: center;
+	float: left;
+	margin: 10px;
+	background: url("grafff.gif");
+  background-size: cover;
+}
+.box1 {
+	width: 95vw;
+	height: 7vw;
+	margin: 10VW;
+	background-color: black;
+	color: white;
+	font-family: helvetica, sans-serif;
+	font-size: 6vw;
+	text-align: center;
+	float: left;
+	margin: 10px;
+	background: url("grafff.gif");
+  background-size: cover;
+}
+.textbox {
+	width: 95vw;
+	margin: 10px;
+	columns: 2;
+	text-align: left;
+	font-family: helvetica, sans-serif;
+	font-size: 2vw;
+
+}
+@media screen and (max-width: 780px) {
+img {
+  display: none;
+}
+}
