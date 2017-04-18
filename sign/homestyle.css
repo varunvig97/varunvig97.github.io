@@ -1,0 +1,24 @@
+.logo {
+	display:block;
+	margin: 0;
+	
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+.bar {
+	display:block;
+	margin: 0;
+	
+position: absolute;
+top: 75%;
+left: 75%;
+transform: translate(-75%, -75%);
+
+    font-family: impact, block;
+    font-size: 65px;
+    text-align: center;
+    color: white;
+}
