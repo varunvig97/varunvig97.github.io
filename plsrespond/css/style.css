@@ -1,0 +1,126 @@
+* {
+	box-sizing: border-box;
+}
+
+header {
+	min-width: 650px;
+}
+
+body {
+	margin: 100px;
+	background-color: #a4aaad;
+}
+
+   p {
+	font-family: 'Cardo', serif;
+	font-size: 12pt;	
+}
+
+ h1{
+	font-family: 'Averia Serif Libre', cursive;
+	font-weight: 300;
+	font-size: 48pt;
+	letter-spacing: 3px;
+	margin: 0px;
+}
+
+   h2 {
+	font-family: 'Averia Serif Libre', cursive;
+	font-weight: 300;
+	letter-spacing: 2px;
+	font-size: 40px;
+}
+
+  
+
+  img{
+	width: 100%;
+	position: relative;
+	float: left;
+	padding: 0px 0px 10px 0px;
+}
+
+@media screen and (max-width: 800px) {
+
+	header {
+	min-width: 500px;
+}
+
+body {
+	margin: 100px;
+	background-color: #bcc4d1;
+}
+
+
+	 p {
+	font-family: 'Cardo', serif;
+	font-size: 10pt;	
+}
+
+h1{
+	font-family: 'Averia Serif Libre', cursive;
+	font-weight: 300;
+	font-size: 35pt;
+	letter-spacing: 3px;
+	margin: 0px;
+}
+
+ h2 {
+	font-family: 'Averia Serif Libre', cursive;
+	font-weight: 150;
+	letter-spacing: 2px;
+	font-size: 30px;
+}
+
+    img{
+	width: 100%;
+	position: relative;
+	float: left;
+	padding: 0px 0px 10px 0px;
+}
+
+  }
+
+  @media screen and (max-width: 600px) {
+
+	
+    header {
+	min-width: 350px;
+}
+
+body {
+	margin: 100px;
+	background-color: #eaf9ff;
+}
+
+
+	 p {
+	font-family: 'Cardo', serif;
+	font-size: 8pt;	
+}
+
+h1{
+	font-family: 'Averia Serif Libre', cursive;
+	font-weight: 75;
+	font-size: 25pt;
+	letter-spacing: 3px;
+	margin: 0px;
+}
+
+ h2 {
+	font-family: 'Averia Serif Libre', cursive;
+	font-weight: 75;
+	letter-spacing: 2px;
+	font-size: 15px;
+}
+
+  img{
+	width: 100%;
+	position: relative;
+	float: left;
+	padding: 0px 0px 10px 0px;
+}
+
+  }
+
+
