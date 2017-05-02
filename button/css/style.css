@@ -1,0 +1,65 @@
+html, body {
+
+  height: 100%;
+}
+
+body{
+
+  transition: background-color 0.25s linear;
+}
+
+h1{
+  color: pink;
+  font-size: 80px;
+  position: absolute;
+  top:20px;
+  left: 20px;
+}
+
+.phase1 {
+
+  background-color: black;
+}
+
+.button {
+
+  position: relative;
+  margin: auto;
+  top: 220px;
+  width: 525px;
+  height: 500px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-image: url("stamp1.png");
+  transition: top 0.5s ease-in-out;
+
+}
+
+.active {
+
+  position: relative;
+  margin: auto;
+  top: 220px;
+  width: 525px;
+  height: 500px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-image: url("stamp2.png");
+  background-color: black;
+  transition: top 0.5s ease-in-out; color: black;
+
+}
+
+
+.phase2 {
+
+  background-image: url("tv.gif");
+  background-size: 1500px;
+  background-position: 15px;
+   
+}
+
+
+ 
+ 
+
