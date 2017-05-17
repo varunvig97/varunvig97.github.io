@@ -1,0 +1,34 @@
+html, body {
+  margin: 0;
+  padding: 0;
+   background-image: url("chicken.gif");
+    background-size: cover;
+}
+
+h1 {
+  width: 450px;
+  margin: 40px auto 0 auto;
+  padding: 0;
+  text-align: right;
+  font-size: 44px;
+  color: black;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+ 
+
+}
+
+#weather {
+  margin-top: 8px;
+  font-size: 80px;
+  width: 100%;
+  text-align: center;
+}
+
+.surplus {
+  top: -50px;
+}
+
+.deficit {
+  top: -75px;
+}

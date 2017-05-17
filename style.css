@@ -29,7 +29,7 @@ p {
   
 .z {
     font-family: Helvetica, sans-serif;
-    font-size: 120px;
+    font-size: 100px;
     color:#51E2C4;
     transition: 10s;
     letter-spacing: -5px;
@@ -41,7 +41,7 @@ p {
 }
 .z:hover {
     font-family: Helvetica, sans-serif;
-    font-size: 120px;
+    font-size: 100px;
     color:#9DFC57;
     transition: 5s;
     letter-spacing: -5px; 
